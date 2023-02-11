@@ -9,7 +9,7 @@ auth_token = '<313046749e1f9a44e01feafb6116f2d0>'
 client = Client(account_sid, auth_token)
 
 # OpenAI API Key
-openai.api_key = "<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>"
+openai.api_key = "<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>"
 
 def process_message(message):
     response = openai.Completion.create(
